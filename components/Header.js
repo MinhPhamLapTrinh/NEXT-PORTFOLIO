@@ -5,20 +5,24 @@ import { FaLinkedin } from "react-icons/fa6";
 import Link from "next/link";
 const links = [
   {
+    name: "Intro",
+    href: "intro",
+  },
+  {
     name: "About me",
-    href: "/about",
+    href: "about",
   },
   {
     name: "Projects",
-    href: "/projects",
+    href: "projects",
   },
   {
     name: "Skills",
-    href: "/skills",
+    href: "skills",
   },
   {
     name: "Contact",
-    href: "/contact",
+    href: "contact",
   },
 ];
 export default function Header() {
@@ -29,7 +33,7 @@ export default function Header() {
           <ul className="flex justify-evenly">
             {links.map((link, idx) => (
               <li key={idx}>
-                <Link href={link.href} passHref legacyBehavior>
+                <Link href={`#${link.href}`} passHref legacyBehavior>
                   <div className="px-2 hover:bg-gray-200 rounded-lg">
                     <button
                       type="button"

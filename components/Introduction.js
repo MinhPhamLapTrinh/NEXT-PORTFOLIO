@@ -17,11 +17,22 @@ export default function Introduction() {
             className="bg-cyan-800 px-2 py-2 rounded-full flex items-center"
           />
         </div>
-        <div className="text-3xl pt-5 px-2">
-          <h1>
-            Hello, I'm Minh. I'm{" "}
-            <span>a software developer or full stack devloper.</span>
+        <div className="text-center max-w-prose mx-auto py-5 text-2xl px-2">
+          <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-700 to-teal-400">
+            Hello, I&apos;m Minh
           </h1>
+          <p className="mt-4">
+            a college student studying Computer Programming and Analysis at
+            Seneca College.
+          </p>
+          <p className="mt-4">
+            My academic focus is on software development, algorithms, and web
+            development.
+          </p>
+          <p className="mt-4">
+            I have hands-on experience with various projects where I&apos;ve
+            applied classroom concepts to real-world challenges.
+          </p>
         </div>
         <div className="flex items-center justify-center pt-5">
           <div className="flex space-x-3 font-bold">
