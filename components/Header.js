@@ -33,7 +33,7 @@ export default function Header() {
                   <div className="px-2 hover:bg-gray-200 rounded-lg">
                     <button
                       type="button"
-                      className="text-lg text-gray-500 hover:text-black"
+                      className="text-lg text-cyan-900 hover:text-black"
                     >
                       {link.name}
                     </button>
