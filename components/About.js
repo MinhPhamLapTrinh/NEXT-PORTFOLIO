@@ -7,7 +7,7 @@ export default function AboutMe() {
         <div className="flex items-center justify-center pb-5">
           <h1 className="text-5xl font-bold">About me</h1>
         </div>
-        <p className="mb-3 font-medium text-lg text-center max-w-prose mx-auto">
+        <p className="mb-3 font-small text-lg text-center max-w-prose mx-auto">
           I&apos;m [Your Name], a Computer Science student at [Your
           College/University Name]. I have a passion for technology and a knack
           for solving complex problems with innovative solutions. My studies
@@ -17,7 +17,7 @@ export default function AboutMe() {
           real-world applications. I&apos;m active in tech clubs and hackathons,
           where I enjoy collaborating with peers and exploring new technologies.
         </p>
-        <p className="mb-3 font-medium text-lg text-center max-w-prose mx-auto mt-5">
+        <p className="mb-3 font-small text-lg text-center max-w-prose mx-auto mt-5">
           In my free time, I enjoy [Your Hobbies/Interests], which help me stay
           energized and focused. I believe in using technology to make a
           positive impact on the world, and I&apos;m excited to share my journey with

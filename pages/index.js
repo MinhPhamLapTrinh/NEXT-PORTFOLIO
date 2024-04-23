@@ -3,7 +3,7 @@ import Introduction from "@/components/Introduction";
 import AboutMe from "@/components/About";
 export default function Home() {
   return (
-    <main className="bg-gradient-to-br from-cyan-200 via-sky-100 to-blue-50 min-h-screen">
+    <main className="bg-gradient-to-b from-[#1A4D2E] via-[#4F6F52] via-[#E8DFCA] to-[#F5EFE6] min-h-screen">
       <div className="pl-2">
         <Header />
       </div>

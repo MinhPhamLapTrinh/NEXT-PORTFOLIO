@@ -14,22 +14,22 @@ export default function Introduction() {
             width="120"
             height="120"
             quality="95"
-            className="bg-cyan-800 px-2 py-2 rounded-full flex items-center"
+            className="bg-green-200 px-2 py-2 rounded-full flex items-center"
           />
         </div>
         <div className="text-center max-w-prose mx-auto py-5 text-2xl px-2">
-          <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-indigo-700 to-teal-400">
+          <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-[#E8DFCA] to-[#F5EFE6]">
             Hello, I&apos;m Minh
           </h1>
-          <p className="mt-4">
+          <p className="mt-4 text-gray-200">
             a college student studying Computer Programming and Analysis at
             Seneca College.
           </p>
-          <p className="mt-4">
+          <p className="mt-4 text-gray-200">
             My academic focus is on software development, algorithms, and web
             development.
           </p>
-          <p className="mt-4">
+          <p className="mt-4 text-gray-200">
             I have hands-on experience with various projects where I&apos;ve
             applied classroom concepts to real-world challenges.
           </p>
