@@ -28,7 +28,7 @@ const links = [
 export default function Header() {
   return (
     <>
-      <header className="bg-white fixed w-1/2 top-10 py-3 rounded-3xl z-50">
+      <header className="bg-white fixed w-1/4 sm:w-1/3 sm:text-sm top-10 py-3 rounded-3xl z-50">
         <nav>
           <ul className="flex justify-evenly">
             {links.map((link, idx) => (
@@ -51,9 +51,11 @@ export default function Header() {
                 passHref
                 legacyBehavior
               >
-                <button type="button">
-                  <FaGithub size="1.5em" />
-                </button>
+                <a target="_blank" rel="noopener noreferrer">
+                  <button type="button">
+                    <FaGithub size="1.5em" />
+                  </button>
+                </a>
               </Link>
             </li>
             <li>
@@ -61,10 +63,13 @@ export default function Header() {
                 href="https://www.linkedin.com/in/minhpham1143/"
                 passHref
                 legacyBehavior
+                target="_blank"
               >
-                <button type="button">
-                  <FaLinkedin size="1.5em" />
-                </button>
+                <a target="_blank" rel="noopener noreferrer">
+                  <button type="button" className="pr-2">
+                    <FaLinkedin size="1.5em" />
+                  </button>
+                </a>
               </Link>
             </li>
           </ul>
