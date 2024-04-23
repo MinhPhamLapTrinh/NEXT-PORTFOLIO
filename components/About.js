@@ -1,5 +1,10 @@
-import Image from "next/image";
-import DevTool from "../public/dev.png";
+import { FaNodeJs } from "react-icons/fa";
+import { FaReact } from "react-icons/fa";
+import { TbBrandNextjs } from "react-icons/tb";
+import { FaGitAlt } from "react-icons/fa";
+import { SiExpress } from "react-icons/si";
+import { IoLogoJavascript } from "react-icons/io5";
+
 export default function AboutMe() {
   return (
     <>
@@ -20,26 +25,48 @@ export default function AboutMe() {
         <p className="mb-3 font-small text-lg text-center max-w-prose mx-auto mt-5">
           In my free time, I enjoy [Your Hobbies/Interests], which help me stay
           energized and focused. I believe in using technology to make a
-          positive impact on the world, and I&apos;m excited to share my journey with
-          you through this portfolio. I&apos;m looking forward to connecting with
-          others in the tech community who share my interests and values.
+          positive impact on the world, and I&apos;m excited to share my journey
+          with you through this portfolio. I&apos;m looking forward to
+          connecting with others in the tech community who share my interests
+          and values.
         </p>
         <div className="flex items-center justify-center pt-5">
-          <div className="max-w-lg bg-gray-100 rounded-lg overflow-hidden shadow-lg">
-            <Image
-              className="w-1/2 h-auto mx-auto"
-              src={DevTool}
-              alt="Dev Tools"
-            />
-            <div className="px-6 py-4">
+          <div className="w-full bg-[#EADBC8] rounded-lg overflow-hidden shadow-xl">
+            <div className="px-10 pt-3 pb-10 mx-auto">
               <div className="font-bold text-xl mb-2">
-                Tools, I am using every single day
+                Tools, I&apos;m using every single day
               </div>
-              <p className="text-gray-700 text-base">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Voluptatibus quia, nulla! Maiores et perferendis eaque,
-                exercitationem praesentium nihil.
-              </p>
+              <div className="block">
+                <div className="flex space-x-10 items-center justify-center">
+                  <div className="bg-white w-1/4 shadow-lg rounded-full flex flex-col items-center">
+                    <FaNodeJs size="3em" className="pt-2" />{" "}
+                    <div className="font-medium">NodeJS</div>
+                  </div>
+                  <div className="bg-white w-1/4 shadow-lg rounded-full flex flex-col items-center">
+                    <FaReact size="3em" className="pt-2" />{" "}
+                    <div className="font-medium">ReactJS</div>
+                  </div>
+                  <div className="bg-white w-1/4 shadow-lg rounded-full flex flex-col items-center">
+                    <TbBrandNextjs size="3em" className="pt-2" />{" "}
+                    <div className="font-medium">NextJS</div>
+                  </div>
+                </div>
+                {/* Second Row */}
+                <div className="flex space-x-10 items-center justify-center pt-5">
+                  <div className="bg-white w-1/4 shadow-lg rounded-full flex flex-col items-center">
+                    <FaGitAlt size="3em" className="pt-2" />{" "}
+                    <div className="font-medium">Git</div>
+                  </div>
+                  <div className="bg-white w-1/4 shadow-lg rounded-full flex flex-col items-center">
+                    <SiExpress size="3em" className="pt-2" />{" "}
+                    <div className="font-medium">ExpressJS</div>
+                  </div>
+                  <div className="bg-white w-1/4 shadow-lg rounded-full flex flex-col items-center">
+                    <IoLogoJavascript size="3em" className="pt-2" />{" "}
+                    <div className="font-medium">JavaScript</div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

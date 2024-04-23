@@ -28,7 +28,7 @@ const links = [
 export default function Header() {
   return (
     <>
-      <header className="bg-gradient-to-r from-[#FFFBDA] via-[#FFEC9E] via-[#FFBB70] to-[#ED9455] fixed w-1/4 sm:w-1/3 sm:text-sm top-10 py-3 rounded-3xl z-50">
+      <header className="bg-gradient-to-b from-[#FFFBDA] via-[#FFEC9E] via-[#FFBB70] to-[#ED9455] fixed w-1/4 sm:w-1/3 sm:text-sm top-10 py-3 rounded-3xl z-50">
         <nav>
           <ul className="flex justify-evenly">
             {links.map((link, idx) => (
