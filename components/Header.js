@@ -9,7 +9,7 @@ const links = [
     href: "intro",
   },
   {
-    name: "About me",
+    name: "About",
     href: "about",
   },
   {
@@ -28,7 +28,7 @@ const links = [
 export default function Header() {
   return (
     <>
-      <header className="bg-gradient-to-b from-[#FFFBDA] via-[#FFEC9E] via-[#FFBB70] to-[#ED9455] fixed w-1/4 sm:w-1/3 sm:text-sm top-10 py-3 rounded-3xl z-50">
+      <header className="bg-gradient-to-b from-[#FFFBDA] via-[#FFEC9E] via-[#FFBB70] to-[#ED9455] fixed w-full sm:w-full md:w-1/2 top-5 py-3 rounded-3xl z-50">
         <nav>
           <ul className="flex justify-evenly">
             {links.map((link, idx) => (
@@ -37,7 +37,7 @@ export default function Header() {
                   <div className="px-2 hover:bg-gray-200 rounded-lg">
                     <button
                       type="button"
-                      className="text-lg text-cyan-900 hover:text-black"
+                      className="text-sm md:text-lg sm:text-md text-cyan-900 hover:text-black"
                     >
                       {link.name}
                     </button>

@@ -11,8 +11,8 @@ export default function Introduction() {
           <Image
             src={toji}
             alt="toji"
-            width="120"
-            height="120"
+            width="110"
+            height="110"
             quality="95"
             className="bg-green-200 px-2 py-2 rounded-full flex items-center"
           />
