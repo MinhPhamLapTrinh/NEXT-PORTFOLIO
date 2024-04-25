@@ -10,7 +10,7 @@ export default function AboutMe() {
     <>
       <div className="inline-block">
         <div className="flex items-center justify-center pb-5">
-          <h1 className="text-5xl font-bold">About me</h1>
+          <h1 className="text-5xl font-medium">About me</h1>
         </div>
         <p className="mb-3 font-small text-lg text-center max-w-prose mx-auto">
           I&apos;m [Your Name], a Computer Science student at [Your

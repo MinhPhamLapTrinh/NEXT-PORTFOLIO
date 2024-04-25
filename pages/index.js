@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Introduction from "@/components/Introduction";
 import AboutMe from "@/components/About";
+import Project from "@/components/Project";
 export default function Home() {
   return (
     <main className="bg-gradient-to-b from-[#1A4D2E] via-[#4F6F52] via-[#E8DFCA] to-[#F5EFE6] min-h-screen w-full">
@@ -12,8 +13,11 @@ export default function Home() {
           <div id="intro" className="pt-20">
             <Introduction />
           </div>
-          <div id="about" className="pt-6">
+          <div id="about" className="pt-20">
             <AboutMe />
+          </div>
+          <div id="projects" className="pt-20">
+            <Project />
           </div>
         </div>
       </div>
