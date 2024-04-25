@@ -5,7 +5,7 @@ import Project from "@/components/Project";
 import MySkill from "@/components/Skills";
 export default function Home() {
   return (
-    <body className="bg-gradient-to-b from-[#1A4D2E] via-[#4F6F52] via-[#E8DFCA] via-[#BACD92] to-[#F5EFE6] min-h-screen w-full">
+    <main className="bg-gradient-to-b from-[#1A4D2E] via-[#4F6F52] via-[#E8DFCA] via-[#BACD92] to-[#F5EFE6] min-h-screen w-full">
       <div className="flex items-center justify-center">
         <Header />
       </div>
@@ -25,6 +25,6 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </body>
+    </main>
   );
 }
