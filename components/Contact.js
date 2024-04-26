@@ -26,7 +26,7 @@ export default function Contact() {
           </h1>
           <div className="container">
             <a
-              className="btn bg-[#FFEC9E] text-gray-500 font-bold px-10 py-5 rounded-full hover:bg-[#FFBB70]"
+              className="btn bg-[#FFEC9E] text-2xl text-gray-500 font-bold px-10 py-5 rounded-full hover:bg-[#FFBB70]"
               href="mailto:phamducminh910@gmail.com?subject=Hello from your Portfolio Website!"
               rel="noopener"
             >

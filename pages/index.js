@@ -4,6 +4,7 @@ import AboutMe from "@/components/About";
 import Project from "@/components/Project";
 import MySkill from "@/components/Skills";
 import Contact from "@/components/Contact";
+import Footer from "@/components/footer";
 export default function Home() {
   return (
     <main className="bg-gradient-to-b from-[#1A4D2E] via-[#4F6F52] via-[#E8DFCA] via-[#BACD92] to-[#F5EFE6] min-h-screen w-full">
@@ -30,6 +31,7 @@ export default function Home() {
           <Contact />
         </div>
       </div>
+      <Footer />
     </main>
   );
 }
