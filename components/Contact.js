@@ -16,15 +16,15 @@ export default function Contact() {
   ];
   return (
     <>
-      <div className="flex items-center justify-center pb-5">
+      <div className="flex items-center justify-center pb-10 mb-5">
         <h1 className="text-5xl font-sm">Contact Me</h1>
       </div>
-      <div className="flex justify-between">
-        <div className="flex flex-col space-y-10 ml-10 w-1/2">
+      <div className="flex md:justify-between md:flex-row flex-col">
+        <div className="md:flex md:flex-col space-y-10 md:ml-10 md:pl-10 md:w-1/2 w-full px-10 md:px-0">
           <h1 className="font-small text-2xl text-gray-500 ml-auto">
             Thank you for spending time on checking out my portfolio website.
           </h1>
-          <div className="container">
+          <div className="pb-12 border-b border-indigo-700 md:pb-0 md:border-b-0 flex justify-center md:justify-start">
             <a
               className="btn bg-[#FFEC9E] text-2xl text-gray-500 font-bold px-10 py-5 rounded-full hover:bg-[#FFBB70]"
               href="mailto:phamducminh910@gmail.com?subject=Hello from your Portfolio Website!"
@@ -34,7 +34,7 @@ export default function Contact() {
             </a>
           </div>
         </div>
-        <div className="w-1/2 flex justify-center">
+        <div className="md:w-1/2 flex justify-center pt-10 md:pt-0">
           <ul>
             {socialLinks.map((link, idx) => (
               <li
