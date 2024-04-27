@@ -24,8 +24,8 @@ export default function Project({ description, imageList, gitHubLink }) {
     <>
       <div className="flex flex-col space-y-10 items-center justify-center pb-5">
         <h1 className="text-5xl font-sm">My Works</h1>
-        <div className="flex flex-col space-y-10 px-2 w-3/4">
-          <div className="flex flex-row justify-around bg-[#F0EBE3] rounded-lg">
+        {/* <div className="flex flex-col space-y-10 px-2 md:w-3/4"> */}
+          <div className="flex flex-col md:flex-row md:justify-around bg-[#F0EBE3] rounded-lg md:w-3/4 w-full">
             <span className="flex px-10 py-5 w-1/2">
               This is my personal website. This is my personal website. This is
               my personal website. This is my personal website. This is my
@@ -33,13 +33,6 @@ export default function Project({ description, imageList, gitHubLink }) {
               website. This is my personal website.
             </span>
             <div className="relative">
-              <Image
-                src={img[(nextImg + 1) % img.length]}
-                width="700"
-                height="400"
-                alt="pics"
-                className="shadow-2xl rounded-t-2xl rounded-br-lg mt-10 absolute bottom-0"
-              />
               <Image
                 src={img[nextImg]}
                 width="700"
@@ -97,7 +90,7 @@ export default function Project({ description, imageList, gitHubLink }) {
               </div>
             </div>
           </div> */}
-        </div>
+        {/* </div> */}
       </div>
     </>
   );
