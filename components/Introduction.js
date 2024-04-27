@@ -17,28 +17,28 @@ export default function Introduction() {
             className="bg-green-200 px-2 py-2 rounded-full flex items-center"
           />
         </div>
-        <div className="text-center max-w-prose mx-auto py-5 text-2xl px-2">
-          <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-[#E8DFCA] to-[#F5EFE6]">
+        <div className="text-center max-w-prose mx-auto py-5 text-2xl px-2 sm:text-3xl">
+          <h1 className="text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-[#E8DFCA] to-[#F5EFE6] sm:text-6xl">
             Hello, I&apos;m Minh
           </h1>
-          <p className="mt-4 text-gray-200">
+          <p className="mt-4 text-gray-200 sm:text-lg">
             a college student studying Computer Programming and Analysis at
             Seneca College.
           </p>
-          <p className="mt-4 text-gray-200">
+          <p className="mt-4 text-gray-200 sm:text-lg">
             My academic focus is on software development, algorithms, and web
             development.
           </p>
-          <p className="mt-4 text-gray-200">
+          <p className="mt-4 text-gray-200 sm:text-lg">
             I have hands-on experience with various projects where I&apos;ve
             applied classroom concepts to real-world challenges.
           </p>
         </div>
-        <div className="flex items-center justify-center pt-5">
-          <div className="flex space-x-3 font-bold">
+        <div className="flex items-center justify-center pt-5 flex-col sm:flex-row">
+          <div className="flex space-x-3 font-bold flex-col sm:flex-row sm:space-y-0 space-y-3">
             <button
               type="button"
-              className="flex bg-cyan-800 text-white rounded-2xl px-6 py-2 hover:bg-cyan-600"
+              className="flex bg-cyan-800 text-white rounded-2xl ml-3 px-6 py-2 hover:bg-cyan-600"
             >
               <RiContactsFill size="1.5em" className="pr-2" /> Contact me
             </button>
