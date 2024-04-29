@@ -38,8 +38,8 @@ export default function Contact() {
           <ul>
             {socialLinks.map((link, idx) => (
               <li
-                className="bg-white rounded-full px-5 py-5 mb-10 hover:bg-gray-700 hover:text-white"
                 key={idx}
+                className="bg-white rounded-full px-5 py-5 mb-10 hover:bg-gray-700 hover:text-white"
               >
                 <Link href={link.url} passHref legacyBehavior>
                   <a target="_blank" rel="noopener noreferrer">

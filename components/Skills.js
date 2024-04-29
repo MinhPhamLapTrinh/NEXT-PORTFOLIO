@@ -69,17 +69,15 @@ export default function MySkill() {
       </div>
       <div className="flex items-center justify-center pt-5 pl-3">
         <div className="md:w-1/2 sm:w-full">
-          <ul className="flex flex-wrap gap-2 text-lg text-gray-800">
+          <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
             {skillList.map((skill, idx) => (
-              <>
-                <li
-                  key={idx}
-                  className="flex items-center justify-center py-2 px-5 bg-[#B5C18E] rounded-lg shadow-lg hover:text-3xl text-2xl text-white"
-                >
-                  <span className="text-5xl">{skill.icon}</span>
-                  <span className="font-small">{skill.skillName}</span>
-                </li>
-              </>
+              <li
+                key={idx}
+                className="flex items-center justify-center py-2 px-5 bg-[#B5C18E] rounded-lg shadow-lg hover:text-3xl text-2xl text-white"
+              >
+                <span className="text-5xl">{skill.icon}</span>
+                <span className="font-small">{skill.skillName}</span>
+              </li>
             ))}
           </ul>
         </div>
