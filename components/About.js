@@ -28,9 +28,11 @@ export default function AboutMe() {
     <>
       <div className="inline-block">
         <div className="flex items-center justify-center pb-5">
-          <h1 className="text-4xl sm:text-5xl font-medium">About me</h1>
+          <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-[#E8DFCA] to-[#F5EFE6]">
+            About me
+          </h1>
         </div>
-        <p className="mb-3 font-small text-lg sm:text-xl text-center max-w-prose mx-auto">
+        <p className="mb-3 font-medium text-lg sm:text-xl text-center max-w-prose mx-auto text-gray-200">
           I&apos;m [Your Name], a Computer Science student at [Your
           College/University Name]. I have a passion for technology and a knack
           for solving complex problems with innovative solutions. My studies
@@ -40,7 +42,7 @@ export default function AboutMe() {
           real-world applications. I&apos;m active in tech clubs and hackathons,
           where I enjoy collaborating with peers and exploring new technologies.
         </p>
-        <p className="mb-3 font-small text-lg sm:text-xl text-center max-w-prose mx-auto mt-5">
+        <p className="mb-3 font-medium text-lg sm:text-xl text-center max-w-prose mx-auto mt-5 text-gray-200">
           In my free time, I enjoy [Your Hobbies/Interests], which help me stay
           energized and focused. I believe in using technology to make a
           positive impact on the world, and I&apos;m excited to share my journey
@@ -51,7 +53,7 @@ export default function AboutMe() {
         <div className="flex items-center justify-center pt-10 px-5 md:px-0">
           <div className="w-full bg-[#EADBC8] rounded-lg overflow-hidden shadow-xl">
             <div className="px-10 pt-3 pb-10 mx-auto">
-              <div className="font-bold text-xl mb-2">
+              <div className="font-bold text-xl mb-2 text-gray-700">
                 Tools, I&apos;m using to build this app.
               </div>
               <ul className="flex flex-row flex-wrap justify-center">
@@ -62,7 +64,9 @@ export default function AboutMe() {
                   >
                     <div className="flex md:items-center space-x-1 md:flex md:flex-col md:py-0 py-3">
                       <span className="md:pl-3">{tool.icon}</span>
-                      <span className="font-medium flex items-center justify-center">{tool.label}</span>
+                      <span className="font-medium flex items-center justify-center">
+                        {tool.label}
+                      </span>
                     </div>
                   </li>
                 ))}

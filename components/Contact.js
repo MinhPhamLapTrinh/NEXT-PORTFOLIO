@@ -17,7 +17,7 @@ export default function Contact() {
   return (
     <>
       <div className="flex items-center justify-center pb-10 mb-5">
-        <h1 className="text-5xl font-sm">Contact Me</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-600">Contact Me</h1>
       </div>
       <div className="flex md:justify-between md:flex-row flex-col">
         <div className="md:flex md:flex-col space-y-10 md:ml-10 md:pl-10 md:w-1/2 w-full px-10 md:px-0">

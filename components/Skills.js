@@ -65,7 +65,7 @@ export default function MySkill() {
   return (
     <>
       <div className="flex items-center justify-center pb-5">
-        <h1 className="text-5xl font-sm">My Skills</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-600">My Skills</h1>
       </div>
       <div className="flex items-center justify-center pt-5 pl-3">
         <div className="md:w-1/2 sm:w-full">
