@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa6";
 
@@ -34,10 +33,10 @@ export default function Header() {
             {links.map((link, idx) => (
               <li key={idx}>
                 <Link href={`#${link.href}`} passHref legacyBehavior>
-                  <div className="px-2 hover:bg-gray-200 rounded-lg">
+                  <div className="px-2 hover:bg-yellow-700 rounded-lg">
                     <button
                       type="button"
-                      className="text-sm md:text-lg sm:text-md text-cyan-900 hover:text-black"
+                      className="text-sm md:text-lg sm:text-md text-cyan-900 hover:text-white"
                     >
                       {link.name}
                     </button>
