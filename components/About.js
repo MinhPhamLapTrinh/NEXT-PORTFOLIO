@@ -62,7 +62,7 @@ export default function AboutMe() {
                     key={idx}
                     className="bg-white md:w-1/5 md:px-2 shadow-lg rounded-full flex flex-row justify-center w-1/2 md:flex md:flex-col md:items-center m-2"
                   >
-                    <div className="flex md:items-center space-x-1 md:flex md:flex-col md:py-0 py-3">
+                    <div className="flex md:items-center space-x-1 md:flex md:flex-col md:py-0 py-5">
                       <span className="md:pl-3">{tool.icon}</span>
                       <span className="font-medium flex items-center justify-center">
                         {tool.label}
