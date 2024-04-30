@@ -65,11 +65,13 @@ export default function MySkill() {
   return (
     <>
       <div className="flex items-center justify-center pb-5">
-        <h1 className="text-4xl md:text-5xl font-bold text-gray-600">My Skills</h1>
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-600">
+          My Skills
+        </h1>
       </div>
       <div className="flex items-center justify-center pt-5 pl-3">
         <div className="md:w-1/2 sm:w-full">
-          <ul className="flex flex-wrap justify-center gap-2 text-lg text-gray-800">
+          <ul className="flex flex-wrap justify-center gap-2 pr-3 md:pr-0 text-lg text-gray-800">
             {skillList.map((skill, idx) => (
               <li
                 key={idx}
