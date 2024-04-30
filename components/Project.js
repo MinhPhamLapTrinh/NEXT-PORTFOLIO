@@ -38,14 +38,14 @@ export default function Project() {
                 <ul className="flex flex-wrap justify-between md:justify-start pt-5 space-x-3">
                   {project.tags.map((tag, index) => (
                     <li
-                      className="bg-yellow-600 px-3 py-1 text-white rounded-full text-gray-300"
+                      className="bg-gradient-to-b from-[#FFFBDA] via-[#FFEC9E] via-[#FFBB70] to-[#ED9455] px-3 py-1 text-gray-600 rounded-full text-gray-300"
                       key={index}
                     >
                       #{tag}
                     </li>
                   ))}
                 </ul>
-                <div className="pt-10 flex flex-row justify-around text-black">
+                <div className="pt-3 flex flex-row justify-around text-black">
                   <a href={project.link} alt="github link" target="_blank" className="hover:text-xl hover:underline">
                     <FaGithub size="2em" className="mr-3" /> Link
                   </a>
