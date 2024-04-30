@@ -35,7 +35,7 @@ export default function Project() {
               <div className="flex flex-col px-10 text-lg text-gray-700 py-5 md:w-1/2 w-full">
                 <span className="text-3xl font-bold text-black">{project.title}</span>
                 {project.description}
-                <ul className="flex flex-wrap justify-between md:justify-start pt-5 space-x-3">
+                <ul className="flex flex-wrap justify-around md:justify-start pt-5 space-x-3">
                   {project.tags.map((tag, index) => (
                     <li
                       className="bg-gradient-to-b from-[#FFFBDA] via-[#FFEC9E] via-[#FFBB70] to-[#ED9455] px-3 py-1 text-gray-600 rounded-full text-gray-300"
@@ -55,13 +55,13 @@ export default function Project() {
                   </a>
                 </div>
               </div>
-              <div className="relative h-80">
+              <div className="relative h-full mt-10">
                 <Image
                   src={project.image[nextImg]}
                   width="800"
-                  height="300"
+                  height="200"
                   alt="pics"
-                  className="shadow-2xl rounded-t-2xl rounded-lg mt-10 object-cover"
+                  className="shadow-2xl rounded-t-2xl rounded-lg object-cover"
                 />
                 <div className="absolute md:bottom-20 bottom-10 pb-10 left-0 flex items-center">
                   <button
