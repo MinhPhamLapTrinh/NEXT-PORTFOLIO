@@ -32,7 +32,8 @@ export default function Project() {
               key={idx}
               className="flex flex-col md:flex-row md:justify-around bg-[#F0EBE3] rounded-lg md:w-3/4 w-full"
             >
-              <div className="flex flex-col px-10 text-md text-[#294B29] font-bold py-5 md:w-1/2 w-full">
+              <div className="flex flex-col px-10 text-lg text-gray-700 py-5 md:w-1/2 w-full">
+                <span className="text-3xl font-bold text-black">{project.title}</span>
                 {project.description}
                 <ul className="flex flex-wrap justify-between md:justify-start pt-5 space-x-3">
                   {project.tags.map((tag, index) => (
@@ -54,13 +55,13 @@ export default function Project() {
                   </a>
                 </div>
               </div>
-              <div className="relative">
+              <div className="relative h-80">
                 <Image
                   src={project.image[nextImg]}
-                  width="700"
-                  height="400"
+                  width="800"
+                  height="300"
                   alt="pics"
-                  className="shadow-2xl rounded-t-2xl rounded-br-lg mt-10 object-cover"
+                  className="shadow-2xl rounded-t-2xl rounded-lg mt-10 object-cover"
                 />
                 <div className="absolute md:bottom-20 bottom-10 pb-10 left-0 flex items-center">
                   <button
