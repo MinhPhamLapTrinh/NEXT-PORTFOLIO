@@ -39,7 +39,9 @@ export default function Introduction() {
               type="button"
               className="flex bg-[#FFEBB2] text-gray-500 rounded-2xl px-4 py-2 hover:bg-yellow-600 hover:text-gray-200"
             >
+            <a href="/My-Resume.pdf">
               Download Resume
+            </a>
               <MdOutlineFileDownload size="1.5em" className="pl-1" />
             </button>
           </div>
