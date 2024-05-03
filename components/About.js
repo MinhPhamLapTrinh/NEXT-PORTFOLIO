@@ -33,22 +33,20 @@ export default function AboutMe() {
           </h1>
         </div>
         <p className="mb-3 font-medium text-lg sm:text-xl text-center max-w-prose mx-auto text-gray-200">
-          I&apos;m [Your Name], a Computer Science student at [Your
-          College/University Name]. I have a passion for technology and a knack
-          for solving complex problems with innovative solutions. My studies
-          focus on software development, data structures, algorithms, and
-          artificial intelligence. Beyond academics, I&apos;ve gained valuable
-          experience through internships and projects, allowing me to work on
-          real-world applications. I&apos;m active in tech clubs and hackathons,
-          where I enjoy collaborating with peers and exploring new technologies.
+          My name is Duc Minh, and I am a Computer Programming student at Seneca
+          College. I have a passion for technology, especially full-stack
+          development, and a knack for solving complex problems with innovative
+          solutions. My studies focus on software development, data structures,
+          algorithms, and web development. Beyond academics, I&apos;ve gained
+          valuable experience through many projects, allowing me to work on
+          real-world applications.
         </p>
         <p className="mb-3 font-medium text-lg sm:text-xl text-center max-w-prose mx-auto mt-5 text-gray-200">
-          In my free time, I enjoy [Your Hobbies/Interests], which help me stay
-          energized and focused. I believe in using technology to make a
-          positive impact on the world, and I&apos;m excited to share my journey
-          with you through this portfolio. I&apos;m looking forward to
-          connecting with others in the tech community who share my interests
-          and values.
+          I enjoy going to the gym in my free time, which helps me stay
+          energized and focused. I believe in using technology to positively
+          impact the world, and I&apos;m excited to share my journey with you
+          through this portfolio. I&apos;m looking forward to connecting with
+          others in the tech community who share my interests and values.
         </p>
         <div className="flex items-center justify-center pt-10 px-5 md:px-0">
           <div className="w-full bg-[#EADBC8] rounded-lg overflow-hidden shadow-xl">
@@ -63,7 +61,7 @@ export default function AboutMe() {
                     className="bg-white md:w-1/5 md:px-2 shadow-lg rounded-full flex flex-row justify-center w-1/2 md:flex md:flex-col md:items-center m-2"
                   >
                     <div className="flex md:items-center space-x-1 md:flex md:flex-col md:py-0 py-5">
-                      <span className="md:pl-3">{tool.icon}</span>
+                      <span className="md:pl-3 md:pr-2">{tool.icon}</span>
                       <span className="font-medium flex items-center justify-center">
                         {tool.label}
                       </span>

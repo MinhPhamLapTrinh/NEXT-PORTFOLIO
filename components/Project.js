@@ -38,14 +38,14 @@ export default function Project() {
           {projectList.map((project, idx) => (
             <li
               key={idx}
-              className="flex flex-col md:flex-row md:justify-around bg-[#F0EBE3] rounded-lg md:w-3/4 w-full"
+              className="flex flex-col md:flex-row md:justify-around bg-[#F0EBE3] rounded-lg md:w-3/4 w-full md:h-96"
             >
               <div className="flex flex-col px-10 text-gray-700 py-5 md:w-1/2 w-full">
-                <span className="text-3xl font-bold text-black">
+                <span className="text-2xl font-bold text-black">
                   {project.title}
                 </span>
-                <span className="text-md">{project.description}</span>
-                <ul className="flex flex-wrap justify-around md:justify-start pt-5 space-x-3">
+                <span className="text-sm">{project.description}</span>
+                <ul className="flex flex-wrap justify-around md:justify-start pt-2 space-x-3">
                   {project.tags.map((tag, index) => (
                     <li
                       className="bg-gradient-to-b from-[#FFFBDA] via-[#FFEC9E] via-[#FFBB70] to-[#ED9455] px-3 py-1 text-gray-600 rounded-full text-gray-300 text-sm"
@@ -87,7 +87,7 @@ export default function Project() {
                   <></>
                 ) : (
                   <>
-                    <div className="absolute md:bottom-20 bottom-10 pb-10 left-0 flex items-center">
+                    <div className="absolute md:top-10 bottom-10 pb-10 left-0 flex items-center">
                       <button
                         className="bg-slate-300 bg-opacity-60 rounded-full px-2 py-2"
                         type="button"
@@ -99,7 +99,7 @@ export default function Project() {
                   </>
                 )}
 
-                <div className="absolute ml-10 md:bottom-20 bottom-10 pb-10 right-0 flex items-center">
+                <div className="absolute ml-10 md:top-10 bottom-10 pb-10 right-0 flex items-center">
                   <button
                     className="bg-slate-300 bg-opacity-60 rounded-full px-2 py-2"
                     type="button"
