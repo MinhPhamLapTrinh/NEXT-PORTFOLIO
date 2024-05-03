@@ -50,8 +50,8 @@ export const projectList = [
     title: "Saigon Lotus Employee Time Tracking",
     description:
       "Developed a web app that allows restaurant staff to clock in and out, and view their time records. The front-end, built a responsive user interface using Next.js, React, and Tailwind. The back-end, created with Node.js and Express.js, manages employee data in MongoDB and secures owner data by JWT, providing the owner with the ability to add employees, edit their time records, and view their total working hours within the specific range of date.",
-    link: "https://github.com/MinhPhamLapTrinh/NEXT-MUSEUM",
-    demo: "https://next-museum.vercel.app/",
+    link: "https://github.com/MinhPhamLapTrinh/saigon-lotus-employee-time-tracking/tree/main",
+    demo: "https://next-saigon-lotus-employee-time-tracking.vercel.app/",
     tags: ["React", "Next.js", "TailwindCSS", "Node.js", "Express.js", "JWT"],
     image: [sg1, sg2, sg3, sg4, sg5, sg6, sg7, sg8],
   },

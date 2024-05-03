@@ -1,5 +1,5 @@
 import Image from "next/image";
-import toji from "../public/toji.png";
+import photo from "../public/photo.jpg"
 import { MdOutlineFileDownload } from "react-icons/md";
 
 export default function Introduction() {
@@ -8,7 +8,7 @@ export default function Introduction() {
       <div className="inline-block">
         <div className="flex items-center justify-center">
           <Image
-            src={toji}
+            src={photo}
             alt="toji"
             width="110"
             height="110"
