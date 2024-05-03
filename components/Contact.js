@@ -24,7 +24,7 @@ export default function Contact() {
           <h1 className="font-small text-2xl text-gray-500 ml-auto">
             Thank you for spending time on checking out my portfolio website.
           </h1>
-          <div className="pb-12 border-b border-indigo-700 md:pb-0 md:border-b-0 flex justify-center md:justify-start">
+          <div className="pb-12 border-b border-indigo-700 md:pb-0 md:border-b-0 flex justify-center md:justify-center">
             <a
               className="btn bg-[#FFEC9E] text-2xl text-gray-500 font-bold px-10 py-5 rounded-full hover:bg-[#FFBB70]"
               href="mailto:phamducminh910@gmail.com?subject=Hello from your Portfolio Website!"
