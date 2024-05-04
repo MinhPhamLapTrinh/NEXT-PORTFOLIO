@@ -21,7 +21,7 @@ export default function Introduction() {
             Hello, I&apos;m Minh
           </h1>
           <p className="mt-4 text-gray-200 sm:text-lg">
-            a college student studying Computer Programming and Analysis at
+            A college student studying Computer Programming and Analysis at
             Seneca College.
           </p>
           <p className="mt-4 text-gray-200 sm:text-lg">

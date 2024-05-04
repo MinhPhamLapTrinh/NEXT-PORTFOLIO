@@ -50,7 +50,7 @@ export default function Project() {
                 <ul className="flex flex-wrap justify-around md:justify-start pt-2 space-x-3 2xl:pb-5 2xl:pt-5">
                   {project.tags.map((tag, index) => (
                     <li
-                      className="bg-gradient-to-b from-[#FFFBDA] via-[#FFEC9E] via-[#FFBB70] to-[#ED9455] px-3 py-1 text-gray-600 rounded-full text-gray-300 text-sm"
+                      className="mb-2 bg-gradient-to-b from-[#FFFBDA] via-[#FFEC9E] via-[#FFBB70] to-[#ED9455] px-2 py-1 text-gray-600 rounded-full text-gray-300 text-sm"
                       key={index}
                     >
                       #{tag}
