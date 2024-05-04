@@ -7,7 +7,7 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/footer";
 export default function Home() {
   return (
-    <main className="bg-gradient-to-b from-[#1A4D2E] via-[#4F6F52] via-[#E8DFCA] via-[#BACD92] to-[#F5EFE6] min-h-screen w-full">
+    <main className="bg-gradient-to-b from-[#1A4D2E] via-[#4F6F52] via-[#E8DFCA] via-[#BACD92] via-[#4F6F52] to-[#F5EFE6] min-h-screen w-full">
       <div className="flex items-center justify-center">
         <Header />
       </div>

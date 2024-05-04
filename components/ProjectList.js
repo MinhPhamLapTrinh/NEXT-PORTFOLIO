@@ -24,7 +24,7 @@ export const projectList = [
     description:
       "My portfolio website showcases my projects and skills in web development. Built with Next.js, React, and TailwindCSS, it's designed for performance and seamless navigation. Explore my work and learn about my expertise in frontend development.",
     link: "https://github.com/MinhPhamLapTrinh/NEXT-PORTFOLIO",
-    demo: "https://next-portfolio-app-woad.vercel.app/",
+    demo: "https://minhpham.vercel.app/",
     tags: ["React", "Next.js", "TailwindCSS"],
     image: [personalWeb1, personalWeb2, personalWeb3],
   },
