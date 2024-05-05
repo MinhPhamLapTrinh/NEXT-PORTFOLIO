@@ -1,5 +1,5 @@
 import Image from "next/image";
-import photo from "../public/photo.jpg"
+import photo from "../public/photo.jpg";
 import { MdOutlineFileDownload } from "react-icons/md";
 
 export default function Introduction() {
@@ -35,15 +35,15 @@ export default function Introduction() {
         </div>
         <div className="flex items-center justify-center pt-5 flex-col sm:flex-row">
           <div className="flex space-x-3 font-bold flex-col sm:flex-row sm:space-y-0 space-y-3">
-            <button
-              type="button"
-              className="flex bg-[#FFEBB2] text-gray-500 rounded-2xl px-4 py-2 hover:bg-yellow-600 hover:text-gray-200"
-            >
             <a href="/My-Resume.pdf">
-              Download Resume
+              <button
+                type="button"
+                className="flex bg-[#FFEBB2] text-gray-500 rounded-2xl px-4 py-2 hover:bg-yellow-600 hover:text-gray-200"
+              >
+                Download Resume
+                <MdOutlineFileDownload size="1.5em" className="pl-1" />
+              </button>
             </a>
-              <MdOutlineFileDownload size="1.5em" className="pl-1" />
-            </button>
           </div>
         </div>
       </div>
