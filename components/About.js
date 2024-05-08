@@ -1,9 +1,7 @@
-import { FaNodeJs } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { TbBrandNextjs } from "react-icons/tb";
 import { FaGitAlt } from "react-icons/fa";
-import { SiExpress } from "react-icons/si";
-import { IoLogoJavascript } from "react-icons/io5";
+import { SiTailwindcss } from "react-icons/si";
 
 export default function AboutMe() {
   const toolList = [
@@ -20,8 +18,8 @@ export default function AboutMe() {
       icon: <FaGitAlt size="3em" className="pt-2" />,
     },
     {
-      label: "JavaScript",
-      icon: <IoLogoJavascript size="3em" className="pt-2" />,
+      label: "TailwindCSS",
+      icon: <SiTailwindcss size="3em" className="pt-2" />,
     },
   ];
   return (
