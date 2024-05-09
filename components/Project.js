@@ -38,7 +38,7 @@ export default function Project() {
           {projectList.map((project, idx) => (
             <li
               key={idx}
-              className="flex flex-col md:flex-row md:justify-around bg-[#F0EBE3] rounded-lg md:w-3/4 w-full md:h-96 2xl:h-full"
+              className="flex flex-col lg:flex-row lg:justify-around bg-[#F0EBE3] rounded-lg md:w-3/4 w-full lg:h-96 2xl:h-full"
             >
               <div className="flex flex-col px-10 text-gray-700 py-5 md:w-1/2 w-full">
                 <span className="text-2xl 2xl:text-4xl font-bold text-black">
