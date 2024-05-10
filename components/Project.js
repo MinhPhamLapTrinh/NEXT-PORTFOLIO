@@ -7,6 +7,7 @@ import { FaGithub } from "react-icons/fa";
 import { IoIosLink } from "react-icons/io";
 
 export default function Project() {
+  const listAnimation = ["fade-up", "fade-right", "fade-left"]
   const [currImg, setCurrImg] = useState(new Array(projectList.length).fill(0));
   const handleNextImage = (projectIdx) => {
     setCurrImg((preState) => {
@@ -39,6 +40,7 @@ export default function Project() {
             <li
               key={idx}
               className="flex flex-col lg:flex-row lg:justify-around bg-[#F0EBE3] rounded-lg md:w-3/4 w-full lg:h-96 2xl:h-full"
+              data-aos={listAnimation[idx]}
             >
               <div className="flex flex-col px-10 text-gray-700 py-5 md:w-1/2 w-full">
                 <span className="text-2xl 2xl:text-4xl font-bold text-black">

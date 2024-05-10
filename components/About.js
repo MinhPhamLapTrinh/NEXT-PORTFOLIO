@@ -24,7 +24,12 @@ export default function AboutMe() {
   ];
   return (
     <>
-      <div className="inline-block">
+      <div
+        className="inline-block"
+        data-aos="fade-right"
+        data-aos-offset="300"
+        data-aos-easing="ease-in-sine"
+      >
         <div className="flex items-center justify-center pb-5">
           <h1 className="text-4xl sm:text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-br from-[#E8DFCA] to-[#F5EFE6]">
             About me
