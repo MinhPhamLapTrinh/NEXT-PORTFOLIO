@@ -28,10 +28,10 @@ export default function Home() {
         <div id="projects" className="pt-20">
           <Project />
         </div>
-        <div id="skills" className="pt-20" data-aos="fade-up-right">
+        <div id="skills" className="pt-20">
           <MySkill />
         </div>
-        <div id="contact" className="pt-20" data-aos="fade-up-left">
+        <div id="contact" className="pt-20">
           <Contact />
         </div>
       </div>

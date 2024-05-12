@@ -69,7 +69,7 @@ export default function MySkill() {
           My Skills
         </h1>
       </div>
-      <div className="flex items-center justify-center pt-5 pl-3">
+      <div className="flex items-center justify-center pt-5 pl-3" data-aos="fade-up-right">
         <div className="md:w-1/2 sm:w-full">
           <ul className="flex flex-wrap justify-center gap-2 pr-3 md:pr-0 text-lg text-gray-800">
             {skillList.map((skill, idx) => (
