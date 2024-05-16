@@ -33,10 +33,10 @@ export default function Header() {
             {links.map((link, idx) => (
               <li key={idx}>
                 <Link href={`#${link.href}`} passHref legacyBehavior>
-                  <div className="px-2 hover:bg-yellow-700 rounded-lg">
+                  <div className="hover:bg-yellow-700 rounded-lg  text-cyan-900">
                     <button
                       type="button"
-                      className="text-sm font-bold md:text-lg sm:text-md text-cyan-900 hover:text-white"
+                      className="text-sm font-bold md:text-lg sm:text-md hover:text-white px-2"
                     >
                       {link.name}
                     </button>
