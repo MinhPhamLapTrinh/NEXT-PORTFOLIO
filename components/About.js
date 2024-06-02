@@ -7,19 +7,19 @@ export default function AboutMe() {
   const toolList = [
     {
       label: "ReactJS",
-      icon: <FaReact size="3em" className="pt-2" />,
+      icon: <FaReact size="4em" className="pt-2" />,
     },
     {
       label: "NextJS",
-      icon: <TbBrandNextjs size="3em" className="pt-2" />,
+      icon: <TbBrandNextjs size="4em" className="pt-2" />,
     },
     {
       label: "Git",
-      icon: <FaGitAlt size="3em" className="pt-2" />,
+      icon: <FaGitAlt size="4em" className="pt-2" />,
     },
     {
       label: "TailwindCSS",
-      icon: <SiTailwindcss size="3em" className="pt-2" />,
+      icon: <SiTailwindcss size="4em" className="pt-2" />,
     },
   ];
   return (
@@ -61,11 +61,11 @@ export default function AboutMe() {
                 {toolList.map((tool, idx) => (
                   <li
                     key={idx}
-                    className="bg-white md:w-1/5 md:px-2 shadow-lg rounded-full flex flex-row justify-center w-1/2 md:flex md:flex-col md:items-center m-2"
+                    className="bg-white md:w-1/3 md:px-2 shadow-lg rounded-full flex flex-row justify-center w-full md:flex md:flex-col md:items-center m-2"
                   >
-                    <div className="flex md:items-center space-x-1 md:flex md:flex-col md:py-0 py-5">
+                    <div className="flex md:items-center space-x-1 md:flex md:flex-col md:py-0 py-3 lg:py-4">
                       <span className="md:pl-3 md:pr-2">{tool.icon}</span>
-                      <span className="font-medium flex items-center justify-center">
+                      <span className="text-xl lg:text-2xl flex items-center justify-center">
                         {tool.label}
                       </span>
                     </div>
