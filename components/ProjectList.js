@@ -17,6 +17,9 @@ import sg5 from "../public/sglotus/sg5.png";
 import sg6 from "../public/sglotus/sg6.png";
 import sg7 from "../public/sglotus/sg7.png";
 import sg8 from "../public/sglotus/sg8.png";
+import simon1 from "../public/SimonGame/simon1.png";
+import simon2 from "../public/SimonGame/simon2.png";
+import simon3 from "../public/SimonGame/simon3.png";
 
 export const projectList = [
   {
@@ -54,5 +57,13 @@ export const projectList = [
     demo: "https://next-saigon-lotus-employee-time-tracking.vercel.app/",
     tags: ["React", "Next.js", "TailwindCSS", "Node.js", "Express.js", "JWT"],
     image: [sg1, sg2, sg3, sg4, sg5, sg6, sg7, sg8],
+  },
+  {
+    title: "The Simon Game",
+    description: "Developed the Simon Game using JavaScript and JQuery",
+    link: "https://github.com/MinhPhamLapTrinh/The-Simon-Game",
+    demo: "https://minhphamlaptrinh.github.io/The-Simon-Game/",
+    tags: ["JavaScript", "HTML", "CSS", "JQuery"],
+    image: [simon1, simon2, simon3],
   },
 ];
